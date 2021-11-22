@@ -4,8 +4,12 @@
     font-size: 20px;
     display: flex;
     align-items: center;
-    
-
+    justify-content: space-between;
+}
+.settings__setting-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .settings__setting span{
     margin-right: 8px;
@@ -27,7 +31,7 @@
     margin-left: 170px;
 }
 .settings__setting .NEW {
-    background-color: tomato;
+    background-color: deeppink;
     width: 20px;
     height: 20px;
     border-radius: 10px;

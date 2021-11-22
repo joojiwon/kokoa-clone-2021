@@ -14,6 +14,7 @@
 @import "components/no-mobile.css";
 /* screens */
 @import"screens/login.css";
+@import"screens/account.css";
 @import"screens/friends.css";
 @import"screens/find.css";
 @import"screens/more.css";
@@ -22,8 +23,10 @@
 body{
     color: #2e363e;
     font-family: 'Open Sans', sans-serif;
+    background-color: lavenderblush;
     
 }
 .main-screen{
     padding: 0px var(--horizontal-space);
+    margin-bottom: 80px;
 }

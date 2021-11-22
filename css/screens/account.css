@@ -1,0 +1,39 @@
+
+.account-header{
+    margin: 50px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: lightpink;
+}
+.account-header__title {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.account-header__text{
+    opacity: 0.5;
+    font-size: 20px;
+     
+}
+#find-account{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+#find-account input{
+    padding: 15px 0px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid var(--purple);
+}
+#find-account input[type="submit"]{
+    border-bottom: none;
+    background-color: var(--purple);
+    cursor: pointer;
+
+}
+#find-account input::placeholder{
+    opacity: 0.5;
+}

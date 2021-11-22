@@ -24,12 +24,3 @@
 .icon-row__icon span{
     margin-top: 18px;
 }
-.icon-row__point{
-    background-color: tomato;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
-}
